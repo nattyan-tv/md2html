@@ -7,24 +7,6 @@ In time, we will add a mode to support another notation....
 
 ---
 ## Discord notation
-### Headline
-```md
-# hello!
-## Subtitle!
-### Subsubtitle!
-#### SubSub...SubTitle!
-##### Sub(x5)title!
-###### SixSubTitle!
-```
-to
-```html
-<h1>hello!</h1>
-<h2>Subtitle!</h2>
-<h3>Subsubtitle!</h3>
-<h4>SubSub...SubTitle!</h4>
-<h5>Sub(x5)title!</h5>
-<h6>SixSubTitle!</h6>
-```
 
 ### Example
 - Markdown
@@ -34,6 +16,27 @@ Markdown code
 - HTML
 ```html
 HTML code
+```
+
+### Headline
+- Markdown
+```md
+# hello!
+## Subtitle!
+### Subsubtitle!
+#### SubSub...SubTitle!
+##### Sub(x5)title!
+###### SixSubTitle!
+```
+
+- HTML
+```html
+<h1>hello!</h1>
+<h2>Subtitle!</h2>
+<h3>Subsubtitle!</h3>
+<h4>SubSub...SubTitle!</h4>
+<h5>Sub(x5)title!</h5>
+<h6>SixSubTitle!</h6>
 ```
 
 ### Bold
