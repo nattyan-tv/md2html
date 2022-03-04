@@ -3,7 +3,7 @@ A very common, markdown HTML conversion program.
 
 # Support
 Follows Discord markdown notation.  
-In time, we will add a mode to support GitHub's notation.
+In time, we will add a mode to support another notation....
 
 ---
 ## Discord notation
@@ -26,49 +26,69 @@ to
 <h6>SixSubTitle!</h6>
 ```
 
+### Example
+- Markdown
+```md
+Markdown code
+```
+- HTML
+```html
+HTML code
+```
+
 ### Bold
+- Markdown
 ```md
 The **BOLD!!** text!!
 ```
-to
+
+- HTML
 ```html
 The <b>BOLD!!</b> text!!
 ```
 
 ### Italic
+- Markdown
 ```md
 *pasta* is _delicious_ food...
 ```
-to
+
+- HTML
 ```html
 <i>pasta</i> is <i>delicious</i> food...
 ```
 
 ### Underline
+- Markdown
 ```md
 The __important__ text!!
 ```
-to
+
+- HTML
 ```html
 The <u>important</u> text!!
 ```
 
 ### Strikethrough
+- Markdown
 ```md
 The ~~secret~~ message!!
 ```
-to
+
+- HTML
 ```html
 The <s>secret</s> message!!
 ```
 
 ### Horizontalrule
+- Markdown
 ```md
 ---
 hello!
 -----
 ```
-to
+
+- HTML
 ```html
 <hr>
 hello!
